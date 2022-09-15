@@ -2,13 +2,17 @@
 PetaLinux版本与Vivado、Vitis版本一致
 
 ## 安装依赖库
+1. 安装GCC
+```
+sudo apt install gcc
+```
 
-1. 正常安装
+2. 正常安装
     ```
     sudo apt install xterm autoconf libtool texinfo zlib1g-dev gcc-multilib build-essential
     ```
 
-2. 替换
+3. 替换
     在ubuntun系统（目前使用Ubuntu 18.04）
     - zlib无法安装，使用zlib1g代替：` sudo apt install zlib1g `
     - ncurses无法安装，使用libncurses5-dev代替：`sudo apt install libncurses5-dev`
