@@ -20,7 +20,7 @@ mkdir <FTP_DIR路径>
 ```
 - 修改FTP文件夹用户
 ```
-sudo chown -r ftp_user.ftp_user <FTP_DIR路径>
+sudo chown -R ftp_user.ftp_user <FTP_DIR路径>
 ```
 
 ### 修改配置文件
