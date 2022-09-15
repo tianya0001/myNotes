@@ -4,8 +4,13 @@ sudo apt install vsftpd
 ```
 
 ### 为FTP创建用户
+- 创建用户
 ```
 sudo useradd ftp_user
+```
+- 设置用户密码
+```
+sudo passwd ftp_user
 ```
 
 ### 创建FTP文件夹
